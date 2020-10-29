@@ -5,7 +5,7 @@
     "cdk-workshop": "bin/cdk-workshop.js"
   },
   "scripts": {
-    "build": "tsc",
+    "build": "cd lambda && npm install && cd .. && tsc",
     "watch": "tsc -w",
     "test": "jest",
     "cdk": "cdk"
